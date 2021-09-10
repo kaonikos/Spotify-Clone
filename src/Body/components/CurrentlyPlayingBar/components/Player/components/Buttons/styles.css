@@ -1,0 +1,24 @@
+.app .body .bottom-bar-area .bottom-bar .player-area .buttons-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 160px;
+    height: 32px;
+    left: 281px;
+    top: 0px;
+}
+
+.app
+    .body
+    .bottom-bar-area
+    .bottom-bar
+    .player-area
+    .buttons-area
+    .MuiSvgIcon-root {
+    color: white;
+    font-size: 2.5rem;
+}

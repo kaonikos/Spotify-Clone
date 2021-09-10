@@ -1,0 +1,74 @@
+.app .body .side-bar .side-bar-menu .menu .screen-option {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px;
+
+    position: static;
+    width: 240px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.app .body .side-bar .side-bar-menu .menu .screen-option .MuiButtonBase-root {
+    left: 16px;
+}
+.app .body .side-bar .side-bar-menu .menu .screen-option .inner-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: relative;
+    width: 208px;
+    height: 40px;
+    top: 0px;
+
+    border-radius: 4px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.app .body .side-bar .side-bar-menu .menu .screen-option .inner-area .icon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px;
+
+    left: 16px;
+    top: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.app .body .side-bar .side-bar-menu .menu .screen-option .inner-area .text {
+    position: static;
+    width: 38px;
+    height: 20px;
+    left: 48px;
+    top: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}

@@ -1,0 +1,12 @@
+.app .body .bottom-bar-area .bottom-bar .player-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 722px;
+    height: 61px;
+    left: 599px;
+    top: 16px;
+}

@@ -1,0 +1,39 @@
+.app .body .side-bar .side-bar-menu .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 8px 8px 16px;
+
+    position: static;
+    width: 216px;
+    left: 0px;
+    top: 0px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.app .body .side-bar .side-bar-menu .logo .text {
+    position: static;
+    width: 66px;
+    height: 40px;
+    left: 66px;
+    top: 8px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}

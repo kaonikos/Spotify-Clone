@@ -1,0 +1,79 @@
+.app .body .side-bar {
+    position: absolute;
+    width: 240px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+    background-color: #121212;
+    color: aliceblue;
+}
+
+.app .body .side-bar .side-bar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    /* width: 240px;
+    height: 394px; */
+    left: 0px;
+    top: 14px;
+}
+.app .body .side-bar .side-bar-menu .divider-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 16px;
+
+    position: static;
+    width: 240px;
+    height: 17px;
+    left: 0px;
+    top: 337px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.app .body .side-bar .side-bar-menu .divider-area .divider {
+    position: static;
+    width: 208px;
+    height: 1px;
+    left: 16px;
+    top: 8px;
+
+    /* Gray/300 */
+
+    background: #d9d9d9;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.app .body .side-bar .side-bar-menu .playlists {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 24px;
+
+    position: static;
+    width: 240px;
+    height: 32px;
+    left: 0px;
+    top: 362px;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+}

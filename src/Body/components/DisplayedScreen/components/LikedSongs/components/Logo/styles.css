@@ -1,0 +1,154 @@
+.app .body .liked-songs-area .liked-songs .logo-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px 0px;
+    
+    position: static;
+    width: 1680px;
+    height: 413px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(135deg, #9471FC 0%, rgba(24, 7, 77, 0.12) 90%);
+}
+
+.app .body .liked-songs-area .liked-songs .logo-area .buttons{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+    
+    position: static;
+    width: 56px;
+    height: 24px;
+    left: 24px;
+    top: 24px;
+    margin: 0px 24px;
+}
+
+.app .body .liked-songs-area .liked-songs .logo-area .image-and-text-area{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    
+    position: static;
+    width: 1632px;
+    height: 248px;
+    left: 24px;
+    top: 141px;
+
+    margin: 10px 0px;
+    
+}
+.app .body .liked-songs-area .liked-songs .logo-area .image-and-text-area .image-and-text{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    
+    position: static;
+    width: 778px;
+    height: 232px;
+    left: 8px;
+    top: 8px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.app .body .liked-songs-area .liked-songs .logo-area .image-and-text-area .image-and-text .image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    
+    position: static;
+    width: 232px;
+    height: 232px;
+    left: 0px;
+    top: 0px;
+    
+    /* Grd 1 */
+    
+    background: linear-gradient(135deg, #450AF5 0%, #C4EFD9 100%);
+    box-shadow: 0px 18px 28px rgba(1, 3, 7, 0.15), 0px 0px 1px rgba(1, 3, 7, 0.31);
+    border-radius: 4px;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+.app .body .liked-songs-area .liked-songs .logo-area .image-and-text-area .image-and-text .text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 522px;
+    height: 156px;
+    left: 256px;
+    top: 76px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+.app .body .liked-songs-area .liked-songs .logo-area .image-and-text-area .image-and-text .text p#playlist {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #FFFFFF;
+    margin: 0;
+}
+.app .body .liked-songs-area .liked-songs .logo-area .image-and-text-area .image-and-text .text p#title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 104px;
+    /* identical to box height, or 108% */
+    
+    
+    color: #FFFFFF;
+    margin: 0;
+}
+.app .body .liked-songs-area .liked-songs .logo-area .image-and-text-area .image-and-text .text p#name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #FFFFFF;
+    margin: 0;
+}
+
+

@@ -1,0 +1,42 @@
+.app .body .bottom-bar-area .bottom-bar .player-area .bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 8px;
+
+    position: static;
+    width: 722px;
+    height: 13px;
+    left: 0px;
+    top: 48px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.app .body .bottom-bar-area .bottom-bar .player-area .bar .MuiSlider-root {
+    color: white;
+}
+.app .body .bottom-bar-area .bottom-bar .player-area .bar .MuiSlider-thumb {
+    display: none !important;
+}
+.app .body .bottom-bar-area .bottom-bar .player-area .bar .text {
+    position: static;
+    width: 22px;
+    height: 13px;
+    left: 8px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #d9d9d9;
+
+    margin: 0px 8px;
+}

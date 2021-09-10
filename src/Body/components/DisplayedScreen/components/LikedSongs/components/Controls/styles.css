@@ -1,0 +1,93 @@
+.app .body .liked-songs-area .liked-songs .controls-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    
+    position: static;
+    width: 1632px;
+    height: 72px;
+    left: 24px;
+    top: 437px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.app .body .liked-songs-area .liked-songs .controls-area .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 112px;
+    height: 56px;
+    left: 8px;
+    top: 8px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.app .body .liked-songs-area .liked-songs .controls-area .buttons .MuiSvgIcon-root {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    position: static;
+    width: 56px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    
+    color: #69DB7C;
+    border-radius: 56px;
+    background-size: 0%;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+.app .body .liked-songs-area .liked-songs .controls-area .controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 96px;
+    height: 16px;
+    left: 1528px;
+    top: 28px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 76px;
+}
+
+.app .body .liked-songs-area .liked-songs .controls-area .controls p{
+    width: 73px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+    margin: 0px 7px;
+
+
+}

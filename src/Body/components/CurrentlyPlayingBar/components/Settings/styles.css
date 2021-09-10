@@ -1,0 +1,45 @@
+.app .body .bottom-bar-area .bottom-bar .settings-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+
+    position: static;
+    width: 567px;
+    height: 16px;
+    left: 1337px;
+    top: 38.5px;
+}
+
+.app .body .bottom-bar-area .bottom-bar .settings-area .settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 189px;
+    height: 16px;
+    left: 378px;
+    top: 0px;
+}
+.app
+    .body
+    .bottom-bar-area
+    .bottom-bar
+    .settings-area
+    .settings
+    .MuiSlider-root {
+    width: 80px;
+    color: white;
+}
+.app
+    .body
+    .bottom-bar-area
+    .bottom-bar
+    .settings-area
+    .settings
+    .MuiSlider-thumb {
+    display: none !important;
+}

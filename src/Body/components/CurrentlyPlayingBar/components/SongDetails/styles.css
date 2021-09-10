@@ -1,0 +1,98 @@
+.app .body .bottom-bar-area .bottom-bar .song-details-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 567px;
+    height: 56px;
+    left: 16px;
+    top: 18.5px;
+
+    flex: none;
+    order: 0;
+    margin: 0px 16px;
+}
+.app .body .bottom-bar-area .bottom-bar .song-details-area .song-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    justify-content: space-between;
+
+    height: 56px;
+    left: 0px;
+    top: 0px;
+}
+.app .body .bottom-bar-area .bottom-bar .song-details-area .song-details .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    height: 36px;
+    left: 72px;
+
+    color: white;
+    margin: 0px 16px;
+}
+.app
+    .body
+    .bottom-bar-area
+    .bottom-bar
+    .song-details-area
+    .song-details
+    .text
+    p {
+    position: static;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.app
+    .body
+    .bottom-bar-area
+    .bottom-bar
+    .song-details-area
+    .song-details
+    .text
+    p#artist {
+    position: static;
+    height: 16px;
+    left: 0px;
+    top: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+
+    color: #d9d9d9;
+}
+
+.app
+    .body
+    .bottom-bar-area
+    .bottom-bar
+    .song-details-area
+    .song-details
+    img#cover {
+        width: 56px;
+        height: 56px;
+}
